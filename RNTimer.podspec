@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name     = 'RNTimer'
+  s.name     = 'ZTimer'
   s.version  = '0.0.1'
   s.license  = {
      :type => 'Copyright',
@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
      LICENSE
   }
   s.summary  = 'Simple GCD-based timer based on NSTimer.'
-  s.homepage = 'https://github.com/rnapier/RNTimer'
+  s.homepage = 'https://github.com/zodio/RNTimer'
   s.author   = { "Rob Napier" => "robnapier@gmail.com" }
-  s.source   = { :git => 'https://github.com/rnapier/RNTimer.git',
-                  :commit => "fdb2f4c302e1049db4a674e24508858e9da892e0" }
+  s.source   = { :git => 'https://github.com/zodio/RNTimer.git',
+                  :tag => "0.0.1" }
   s.source_files = 'RNTimer/RNTimer.{h,m}'
   s.platform     = :ios, '5.0'
   s.frameworks   = "Foundation"
