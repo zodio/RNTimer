@@ -65,7 +65,10 @@
 }
 
 - (void)dealloc {
-  [self invalidate];
+#ifdef NO_OBJC_ARC
+    [super dealloc];
+#endif
+    [self invalidate];
 }
 
 - (void)fire {
